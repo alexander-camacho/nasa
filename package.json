@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/alexander-camacho/nasa/issues"
   },
-  "homepage": "https://github.com/alexander-camacho/nasa#readme"
+  "homepage": "https://github.com/alexander-camacho/nasa#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
 }
