@@ -2,8 +2,8 @@
     "development": {
       "username": "root",
       "password": "password",
-      "database": "sequelize-demo",
-      "host": "127.0.0.1",
+      "database": "sequelize_demo",
+      "host": "localhost",
       "dialect": "mysql"
     },
     "test": {

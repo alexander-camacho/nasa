@@ -8,16 +8,45 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <link rel="stylesheet" type="css/text" href="./assets/css/style.css">
 
 </head>
 
 <body>
-    <div>hello</div>
-<script type="text/javascript" src="./assets/js/logic.js"></script>
+    <div class="jumbotron">
+        <h1> NASA pic of the day</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <p id='apod-title'>APOD</p>
+                <img id="apod-img"src="https://designshack.net/wp-content/uploads/placeholder-image.png" alt="">
+                <div id="apod-detail"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <p>User Name:</p>
+                <input id="title" placeholder="enter your name">
+                <br>
+                <p>Comment:</p>
+                <textarea id="comment-box" placeholder="your comment here"></textarea>
+                <button id="comment-submit">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2>Discussion</h2>
+                <hr>
+                <div id="comments"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/js/logic.js"></script>
 </body>
 
 </html>

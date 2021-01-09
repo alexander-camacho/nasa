@@ -6,7 +6,7 @@ const apiRoutes = require("./api")
 router.use('/api', apiRoutes);
 // mySQL Routes
 router.use('/', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/main/html"));
+    res.sendFile(path.join(__dirname, "../public/main.html"));
 });
 
 module.exports = router
